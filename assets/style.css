@@ -67,6 +67,7 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 #schedule{padding-top:6em;}
 #schedule figcaption a{border:1px solid #fff;margin-top: 1em;display: inline-block;color: #fff;padding: 0 2em;}
 #schedule figcaption a:hover{text-decoration: none;padding: 0 3em;}
+#schedule img{filter:brightness(70%);}
 /*schedule*/
 
 /*team*/
@@ -83,17 +84,9 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 /*about us*/
 
 
-
-
-
-
-
-
-
-/*contact*/
-#contact{background-color: #f5f5f5;}
+#contact{background-color: #f2f2f2;}
 .contactform textarea,.contactform input{width: 100%;padding:1em;border:1px solid #ccc;margin-bottom: 1em;border-radius: 0;outline: none;}
-/*contact*/
+
 
 
 .footer{background-color: #111; color: #fff; font-size: 1em;color: #aaa;}
@@ -157,3 +150,5 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 	figure.effect-chico figcaption {padding: 1.5em;}
 	.footer{margin-top: 2em;padding-bottom: 2em;}
 }
+
+#edicao_anterior {margin: auto; width: 20%; border-radius: 50px;}
