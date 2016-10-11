@@ -67,7 +67,7 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 #schedule{padding-top:6em;}
 #schedule figcaption a{border:1px solid #fff;margin-top: 1em;display: inline-block;color: #fff;padding: 0 2em;}
 #schedule figcaption a:hover{text-decoration: none;padding: 0 3em;}
-#schedule img{filter:brightness(70%);}
+#schedule img{filter:brightness(100%);}
 #schedule p{font-size: 125%;}
 /*schedule*/
 
