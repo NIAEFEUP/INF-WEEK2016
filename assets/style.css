@@ -1,4 +1,8 @@
-body {	color:#666;	font:300 15px/15px Roboto,Arial,Helvetica;background-color:#fff;-webkit-font-smoothing:antialiased;}
+body {	color:#666;	font:300 15px/15px Roboto,Arial,Helvetica;background: url(../images/stardust.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
 
 a{color:#00a9c6; text-decoration:none;}
 a:hover{color:#666;}
@@ -64,11 +68,13 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 .carousel-indicators{bottom: 0;}
 
 /*schedule*/
-#schedule{padding-top:6em;}
-#schedule figcaption a{border:1px solid #fff;margin-top: 1em;display: inline-block;color: #fff;padding: 0 2em;}
-#schedule figcaption a:hover{text-decoration: none;padding: 0 3em;}
-#schedule img{filter:brightness(100%);}
-#schedule p{font-size: 125%;}
+#schedule{padding-top:12%; padding-bottom:5%; padding-left: 3%;background: url(../images/stardust.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+#schedule img{filter:brightness(100%); height: 90%; width: 90%; border:3px solid #a3c839; border-radius: 500px;}
+#schedule p{font:5em Roboto,Arial,Helvetica;font-size: 120%;}
 /*schedule*/
 
 /*team*/
@@ -85,7 +91,7 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 /*about us*/
 
 
-#contact{background-color: #f2f2f2;}
+#about{background-color: #f2f2f2;}
 .contactform textarea,.contactform input{width: 100%;padding:1em;border:1px solid #ccc;margin-bottom: 1em;border-radius: 0;outline: none;}
 
 
@@ -152,5 +158,12 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 	.footer{margin-top: 2em;padding-bottom: 2em;}
 }
 
-#edicao_anterior {margin: auto; width: 20%; border-radius: 50px;}
+#edicao_anterior {margin: auto; width: 20%; border-radius: 50px; background-color: grey;}
+#edicao_anterior:hover {margin: auto; width: 20%; border-radius: 50px; background-color: #a3c839;}
 [name="inscricao"] {margin: auto; width: 40%; border-radius: 50px;}
+#contact h2{color: white;}
+#contact h1 a {color: white;}
+#contact h1 a:hover {color: #a3c839;}
+#contact h4 a {color: white;}
+#contact h4 a:hover {color: #a3c839;}
+#logo {display: block;margin: auto; border:3px solid #a3c839;margin-top: 8%;}
