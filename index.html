@@ -22,8 +22,7 @@
 </head>
 
 <body>
-<div class="topbar animated fadeInLeftBig"></div>
-<!--
+
 <div class="navbar-wrapper">
 
       <div class="container">
@@ -33,7 +32,7 @@
             
             <div class="navbar-header">
 
-              <a class="navbar-brand" href="#home"><br>Semana de Informática 2016</a>
+              <a class="navbar-brand" href="#home" id="semanaInf">Semana de Informática 2016</a>
 
 
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
@@ -46,8 +45,8 @@
 
             <div class="navbar-collapse  collapse">
               <ul class="nav navbar-nav navbar-right scroll">
-                 <li class="active"><a href="#schedule">Eventos</a></li>
                  <li ><a href="#about">Sobre</a></li>
+                 <li ><a href="#events">Eventos</a></li>
                  <li ><a href="#contact">Contactos</a></li>
               </ul>
             </div>
@@ -56,41 +55,15 @@
         </div>
 
       </div>
-</div>-->
-
-<div id="contact" class="spacer">
-   <img src="images/logo.jpg" alt="logo" id="logo" align="middle">
+</div>
+<div id="home" class="spacer">
+   <img src="images/logo.png" alt="logo" id="logo" align="middle">
+   <br><br><br><br><br>
+   <h4 class="text-center"><a href="#about"><button class="btn btn-primary" id="sabe_mais">Sabe mais</button></a></h4>
 </div>
 
-<div id="schedule" class="w3-main">
-
-  <div class="w3-row-padding">
-    <div class="w3-third w3-container w3-margin-bottom">
-      <img src="images/portfolio/mindera.jpg" alt="mindera" class="w3-hover-opacity" data-gallery data-toggle="modal" data-target="#minderaModal">
-    </div>
-    <div class="w3-third w3-container w3-margin-bottom">
-      <img src="images/portfolio/bit.jpg" alt="bit" class="w3-hover-opacity" data-gallery data-toggle="modal" data-target="#minderaModal">
-    </div>
-    <div class="w3-third w3-container w3-margin-bottom">
-      <img src="images/portfolio/niaefeup.jpg" alt="niaefeup" class="w3-hover-opacity" data-gallery data-toggle="modal" data-target="#minderaModal">
-    </div>
-  </div>
-  
-  <div class="w3-row-padding">
-<div class="w3-third w3-container w3-margin-bottom">
-      <img src="images/portfolio/1.jpg" alt="1" class="w3-hover-opacity" data-gallery data-toggle="modal" data-target="#minderaModal">
-    </div>
-   <div class="w3-third w3-container w3-margin-bottom">
-      <img src="images/portfolio/ieee.jpg" alt="ieee" class="w3-hover-opacity" data-gallery data-toggle="modal" data-target="#minderaModal">
-    </div>
-    <div class="w3-third w3-container w3-margin-bottom">
-      <img src="images/portfolio/1.jpg" alt="1" class="w3-hover-opacity" data-gallery data-toggle="modal" data-target="#minderaModal">
-    </div>
-  </div>
-  </div>
-
 <div id="about" class="spacer">
-	<h2 class="text-center  wowload fadeInUp">Sobre a Semana de Informática</h2>
+  <h2 class="text-center  wowload fadeInUp">Sobre a Semana de Informática</h2>
   
   <h4 class="text-center">
       Está de volta a semana de Informática! <br>
@@ -101,6 +74,39 @@
 
   <a href="https://web.fe.up.pt/~ei12030/Sem_Inf_15/"><button class="btn btn-primary" id="edicao_anterior">Edição Anterior</button></a>
   </h4>
+</div>
+
+<div id="events">
+
+  <br><br>
+  <div class="row">
+
+    <div class="col-md-4">
+      <img src="images/portfolio/mindera.jpg" alt="mindera" data-gallery data-toggle="modal" data-target="#minderaModal">
+    </div>
+
+    <div class="col-md-4">
+      <img src="images/portfolio/bit.jpg" alt="bit"data-gallery data-toggle="modal" data-target="#bitModal">
+    </div>
+
+     <div class="col-md-4">
+      <img src="images/portfolio/niaefeup.jpg" alt="niaefeup" data-gallery data-toggle="modal" data-target="#niaefeupModal">
+    </div>       
+  </div>
+  <div class="row">
+
+    <div class="col-md-4">
+      <img src="images/portfolio/1.jpg" alt="1"data-gallery data-toggle="modal" data-target="#palestra1Modal">
+    </div>
+
+    <div class="col-md-4">
+      <img src="images/portfolio/ieee.jpg" alt="ieee"data-gallery data-toggle="modal" data-target="#ieeeModal">
+    </div>
+
+     <div class="col-md-4">
+      <img src="images/portfolio/1.jpg" alt="2"data-gallery data-toggle="modal" data-target="#palestra2Modal">
+    </div>       
+  </div>
 </div>
 
 <div id="contact" class="spacer">
@@ -123,7 +129,7 @@
         <button type="button" class="close" data-dismiss="modal">&times;</button></h4>
       </div>
       <div class="modal-body">
-        <p>Texto relativo à visita</p>
+        <p>Se gostas de desenvolver software e queres expandir os teus conhecimentos entrando em contacto com o meio empresarial, esta visita é ideal para ti! Junta-te a nós e vem visitar a Minedera dia 31 de Outubro pelas 10:00! </p>
       </div>
       <div class="modal-footer">
         <h5 class="text-center"><button class="btn btn-primary" name="inscricao">Increve-te Aqui</button></h5>
@@ -142,7 +148,7 @@
         <button type="button" class="close" data-dismiss="modal">&times;</button></h4>
       </div>
       <div class="modal-body">
-        <p>Texto relativo à visita</p>
+        <p>Se tens gosto ou curiosidade por sistemas de informação e gostavas de visitar uma das melhores empresas na área, junta-te a nós dia 4 de Novembro pelas 10:00 para uma visita à Sonae Bit!</p>
       </div>
       <div class="modal-footer">
         <h5 class="text-center"><button class="btn btn-primary" name="inscricao">Increve-te Aqui</button></h5>
@@ -161,7 +167,7 @@
         <button type="button" class="close" data-dismiss="modal">&times;</button></h4>
       </div>
       <div class="modal-body">
-        <p>Texto relativo ao Workshop</p>
+        <p>Queres conhecer Git? Ou simplesmente aprofundar os teus conhecimentos sobre a ferramenta? Então não percas a oportunidade de participar no workshop dado pelo NIAEFEUP, dia 31 de Outubro pelas 14:30 na FEUP!</p>
       </div>
       <div class="modal-footer">
         <h5 class="text-center"><button class="btn btn-primary" name="inscricao">Increve-te Aqui</button></h5>
@@ -180,7 +186,7 @@
         <button type="button" class="close" data-dismiss="modal">&times;</button></h4>
       </div>
       <div class="modal-body">
-        <p>Texto relativo ao Workshop</p>
+        <p>Queres conhecer a ferramenta Arduíno? Esta é a tua oportunidade! O núcleo IEEE tem um workshop preparado para ti, dia 3 de Novembro pelas 10:30 na FEUP!</p>
       </div>
       <div class="modal-footer">
         <h5 class="text-center"><button class="btn btn-primary" name="inscricao">Increve-te Aqui</button></h5>
@@ -199,8 +205,17 @@
         <button type="button" class="close" data-dismiss="modal">&times;</button></h4>
       </div>
       <div class="modal-body">
-        <p>Texto relativo à palestra</p>
+        <p>Se queres expandir o teu currículo e ganhar experiência estagiando enquanto completas o teu curso, mas não sabes como, vem ouvir relatos reais de atuais e antigos estuantes que já passaram por empresas como a Fraunhofer,[] e a Google! Junta-te dia 4 de Novembro pelas 15:00 na FEUP!<p>
+       
+          <div class="oradores">
+             <p>Oradores: 
+      <img src="images/orador2.jpg" alt="orador2">
+      <img src="images/orador1.jpg" alt="orador1">
+      <img src="images/orador3.jpg" alt="orador3"><br>
+      <br> Pedro Santos (estagiário na empresa 2015) <br> Simão Felgueiras (estagiário na Fraunhofer 2016) <br> André Lago (estagiário na Google 2016)</p>
       </div>
+      </div>
+
     </div>
 
   </div>
@@ -215,7 +230,12 @@
         <button type="button" class="close" data-dismiss="modal">&times;</button></h4>
       </div>
       <div class="modal-body">
-        <p>Texto relativo à palestra</p>
+        <p>Se não sabes o que pretendes fazer quando acabares o teu curso, não te preocupes, o MIEIC tem variadíssimas saídas pelas quais pode optar e que estaram a ser discutidas dia 4 de Novembro na FEUP! Não podes perder! </p>
+      <div class="oradores">
+             <p>Oradores: 
+      <img src="images/orador4.jpg" alt="orador4"><br>
+      <br> Sónia Liquito, Software Test Engineer at Farfetch</p>
+      </div>
       </div>
     </div>
 
