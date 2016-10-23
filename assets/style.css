@@ -162,7 +162,7 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 .w3-row-padding{margin-top: -10px;}
 
 .col-md-4 img:hover{filter:brightness(75%);border:1px solid ; border-color: grey;}
-.col-md-4 img{filter:brightness(100%); border:1px solid ; border-color: grey;}
+.col-md-4 img{filter:brightness(100%); border:1px solid ; border-color: grey; width: 110%; height: 100%;}
 
 .oradores img{border-radius: 100px;padding: 1%; width: 15%; height: 15%;}
 .oradores {display: inline;}
