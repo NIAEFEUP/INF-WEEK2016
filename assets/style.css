@@ -158,6 +158,7 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 #logo {display: block;margin: auto; height: 70%; width: 70%;}
 #sabe_mais:hover{margin: auto; width: 15%; border-radius: 50px; background-color: transparent; color: white; border:5px solid ; border-color: white ;}
 #sabe_mais {margin: auto; width: 15%; border-radius: 50px; background-color: transparent; color: white; border:5px solid ; border-color: #a3c839;}
+#nieafeup_logo {width: 3%;height: 3%;}
 
 .w3-row-padding{margin-top: -10px;}
 
@@ -166,3 +167,5 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 
 .oradores img{border-radius: 100px;padding: 1%; width: 15%; height: 15%;}
 .oradores {display: inline;}
+
+footer {text-align: right; color: white; margin-right: 1%;}
