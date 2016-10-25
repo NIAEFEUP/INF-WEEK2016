@@ -159,6 +159,8 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 #sabe_mais:hover{margin: auto; width: 15%; border-radius: 50px; background-color: transparent; color: white; border:5px solid ; border-color: white ;}
 #sabe_mais {margin: auto; width: 15%; border-radius: 50px; background-color: transparent; color: white; border:5px solid ; border-color: #a3c839;}
 #nieafeup_logo {width: 3%;height: 3%;}
+#home h4{text-align: center;}
+.custom_modal {width: 80%;}
 
 .w3-row-padding{margin-top: -10px;}
 
@@ -167,5 +169,10 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 
 .oradores img{border-radius: 100px;padding: 1%; width: 15%; height: 15%;}
 .oradores {display: inline;}
+
+.custom-table {margin:auto; border-color: #000033; border-width: 2px;}
+.custom-table tbody tr td{text-align: center; border-color: #000033; border-width: 2px; color:#000033; }
+.custom-table thead tr th{text-align: center; border-color: #000033; border-width: 2px; color:#000033; background-color: #9999ff;}
+
 
 footer {text-align: right; color: white; margin-right: 1%;}
